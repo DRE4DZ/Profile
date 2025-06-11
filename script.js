@@ -27,6 +27,11 @@ mainContent.classList.remove('video-playing');
 
 isPlaying = false;
 } else {
+
+// reset the vid dan the music fwaeh
+backgroundVideo.currentTime = 0;
+backgroundAudio.currentTime = 0;
+
 // Play music and video
 backgroundVideo.play();
 backgroundAudio.play();
